@@ -306,6 +306,31 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosTecnicos"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOrganizacaoEvento\u0028\u0029",
+            "name": "listarOrganizacaoEvento",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOrganizacaoEvento"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesTecnicas\u0028\u0029",
+            "name": "listarOutrasProducoesTecnicas",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020t\u00E9cnicas\u0020cadastradas\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020identidicadas\u0020como\u0020\u0027Demais\u0020tipos\u0020de\u0020produ\u00E7\u00E3o\u0020t\u00E9cnica\u0027",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarOutrasProducoesTecnicas"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarCursosCurtaDuracao\u0028\u0029",
+            "name": "listarCursosCurtaDuracao",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020cursos\u0020de\u0020curta\u0020dura\u00E7\u00E3o\u0020ministrados\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarCursosCurtaDuracao"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRelatoriopesquisa\u0028\u0029",
+            "name": "listarRelatoriopesquisa",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020os\u0020relat\u00F3rios\u0020de\u0020pesquisa\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRelatoriopesquisa"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarMaterialDidaticoInstrucional\u0028\u0029",
+            "name": "listarMaterialDidaticoInstrucional",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020materiais\u0020did\u00E1ticos\u0020ou\u0020instrucionais\u0020do\u0020autor\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarMaterialDidaticoInstrucional"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOutrasProducoesBibliograficas\u0028\u0029",
             "name": "listarOutrasProducoesBibliograficas",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020\u0022outras\u0022\u0020produ\u00E7\u00F5es\u0020bibliogr\u00E1ficas,\u0020uma\u0020subcategoria\u0020das\u0020produ\u00E7\u00F5es,\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
@@ -343,8 +368,23 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarFormacaoProfissional\u0028\u0029",
             "name": "listarFormacaoProfissional",
-            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\u0020ano\u0020fim\u0020e\u0020o\u0020tipo\u0020de\u0020v\u00EDnculo.",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\nano\u0020fim,\u0020tipo\u0020de\u0020v\u00EDnculo\u0020e\u0020outras\u0020informa\u00E7\u00F5es.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarFormacaoProfissional"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRadioTV\u0028\u0029",
+            "name": "listarRadioTV",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020as\u0020participa\u00E7\u00F5es\u0020em\u0020r\u00E1dio\u0020ou\u0020TV\u0020presente\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020entrevista,\nemissora\u0020e\u0020nome\u0020para\u0020cita\u00E7\u00E3o.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarOrcidID\u0028\u0029",
+            "name": "retornarOrcidID",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020OrcidID\u0020cadastrado\u0020no\u0020curr\u00EDculo\u0020lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarOrcidID"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarProjetosPesquisa\u0028\u0029",
+            "name": "listarProjetosPesquisa",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020projetos\u0020de\u0020pesquisa\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarProjetosPesquisa"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
@@ -456,6 +496,16 @@ Search.appendIndex(
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020todas\u0020as\u0020pessoas\u0020ativas\u0020por\u0020v\u00EDnculo\nSomente\u0020ATIVOS\u0020\u0028tamb\u00E9m\u0020Docente\u0020Aposentado\u0029\nSe\u0020o\u0020terceiro\u0020par\u00E2metro\u0020\u002A\u0024contar\u002A\u0020for\u0020igual\u0020a\u00201,\u0020retorna\u0020um\u0020\u002Aarray\u002A\ncom\u0020o\u0020\u00EDndice\u0020\u002Atotal\u002A\u0020que\u0020corresponde\u0020ao\u0020n\u00FAmero\u0020total\u0020de\u0020pessoas\u0020do\u0020tipo\u0020de\u0020v\u00EDnculo",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_ativosVinculo"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarServidoresSetor\u0028\u0029",
+            "name": "listarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020a\u0020lista\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020lista\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarServidoresSetor"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AcontarServidoresSetor\u0028\u0029",
+            "name": "contarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020total\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020conta\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_contarServidoresSetor"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AvinculosSetores\u0028\u0029",
             "name": "vinculosSetores",
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020todas\u0020os\u0020v\u00EDnculos\u0020e\u0020setores\u0020de\u0020uma\u0020pessoa\nFundamental\u0020para\u0020o\u0020uspdev\/web\u002Dldap\u002Dadmin\nSomente\u0020ATIVOS\nTamb\u00E9m\u0020Docente\u0020Aposentado",
@@ -510,6 +560,31 @@ Search.appendIndex(
             "name": "listarDocentesAposentadosSenior",
             "summary": "M\u00E9todo\u0020que\u0020lista\u0020docentes\u0020aposentados\u0020S\u00EAnior\u0020\u0028em\u0020atividade\u0029\nde\u0020uma\u0020unidade\u0020por\u0020setor\u0020\u0028departamento\u0029\u0020solicitado",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarDocentesAposentadosSenior"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarIniciaoCientificaAtiva\u0028\u0029",
+            "name": "listarIniciaoCientificaAtiva",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020as\u0020inicia\u00E7\u00F5es\u0020cient\u00EDficas\u0020vigentes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarIniciaoCientificaAtiva"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarPesquisadoresColaboradoresAtivos\u0028\u0029",
+            "name": "listarPesquisadoresColaboradoresAtivos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020os\u0020colaboradores\u0020ativos",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarPesquisadoresColaboradoresAtivos"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AretornarCursoPorCodpes\u0028\u0029",
+            "name": "retornarCursoPorCodpes",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020codcur\u0020e\u0020o\u0020nome\u0020do\u0020curso\u0020da\u0020pessoa\u0020atrav\u00E9s\u0020do\u0020codpes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_retornarCursoPorCodpes"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AretornarProgramaPorCodpes\u0028\u0029",
+            "name": "retornarProgramaPorCodpes",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020codare\u0020e\u0020o\u0020nome\u0020do\u0020programa\u0020da\u0020pessoa\u0020atrav\u00E9s\u0020do\u0020codpes",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_retornarProgramaPorCodpes"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarPesquisaPosDoutorandos\u0028\u0029",
+            "name": "listarPesquisaPosDoutorandos",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020os\u0020colaboradores\u0020ativos",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarPesquisaPosDoutorandos"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Posgraduacao",
             "name": "Posgraduacao",
@@ -960,21 +1035,6 @@ Search.appendIndex(
             "name": "test_vinculosSiglas",
             "summary": "",
             "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_vinculosSiglas"
-        },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_setoresSiglas\u0028\u0029",
-            "name": "test_setoresSiglas",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_setoresSiglas"
-        },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_totalVinculo\u0028\u0029",
-            "name": "test_totalVinculo",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_totalVinculo"
-        },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_contarDocentesAtivosPorGenero\u0028\u0029",
-            "name": "test_contarDocentesAtivosPorGenero",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_contarDocentesAtivosPorGenero"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_contarEstagiariosAtivosPorGenero\u0028\u0029",
             "name": "test_contarEstagiariosAtivosPorGenero",
