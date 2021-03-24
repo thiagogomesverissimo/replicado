@@ -1031,11 +1031,6 @@ Search.appendIndex(
             "summary": "",
             "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_vinculos"
         },                {
-            "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_vinculosSiglas\u0028\u0029",
-            "name": "test_vinculosSiglas",
-            "summary": "",
-            "url": "../classes/Uspdev-Replicado-Tests-PessoaTest.html#method_test_vinculosSiglas"
-        },                {
             "fqsen": "\\Uspdev\\Replicado\\Tests\\PessoaTest\u003A\u003Atest_contarEstagiariosAtivosPorGenero\u0028\u0029",
             "name": "test_contarEstagiariosAtivosPorGenero",
             "summary": "",
