@@ -231,6 +231,11 @@ Search.appendIndex(
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020ID\u0020Lattes\u0020da\u0020pessoa.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_id"
         },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AretornarCodpesPorIDLattes\u0028\u0029",
+            "name": "retornarCodpesPorIDLattes",
+            "summary": "Recebe\u0020o\u0020ID\u0020Lattes\u0020e\u0020retorna\u0020o\u0020n\u00FAmero\u0020USP\u0020da\u0020pessoa.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_retornarCodpesPorIDLattes"
+        },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AobterZip\u0028\u0029",
             "name": "obterZip",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020o\u0020bin\u00E1rio\u0020zip\u0020do\u0020lattes",
@@ -305,6 +310,11 @@ Search.appendIndex(
             "name": "listarTrabalhosTecnicos",
             "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020os\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarTrabalhosTecnicos"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarApresentacaoTrabalho\u0028\u0029",
+            "name": "listarApresentacaoTrabalho",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020devolve\u0020array\u0020com\u0020as\u0020apresenta\u00E7\u00F5es\u0020de\u0020trabalhos\u0020t\u00E9cnicos\u0020cadastrados\u0020no\u0020curr\u00EDculo\u0020Lattes",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarApresentacaoTrabalho"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarOrganizacaoEvento\u0028\u0029",
             "name": "listarOrganizacaoEvento",
