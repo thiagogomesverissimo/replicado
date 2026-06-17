@@ -11,11 +11,9 @@ seu código muito mais limpo, além de torna as consultas reutilizáveis:
 
     Pessoa::nomeCompleto('123');
 
-## Dependências
+## Docker
 
-* É necessário pelo menos o PHP v7.3 e é compatível com php v8.0 e posteriores
-* Esta biblioteca precisa da extensão `ext-sybase`. No ubuntu instale com `sudo apt install php-sybase`
-* Esta biblioteca usa opcionalmente `uspdev/cache`. Caso queira usar o cache consulte a documentação em: https://github.com/uspdev/cache
+    docker compose up --build
 
 ## Como usar
 

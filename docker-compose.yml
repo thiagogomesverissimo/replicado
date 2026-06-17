@@ -1,0 +1,17 @@
+services:
+  replicado:
+    build: .
+    container_name: replicado
+    networks:
+      - replicado-network
+    volumes:
+      - ./:/app
+    environment:
+      HOME: /tmp
+    user: "${UID:-1000}:${GID:-1000}"
+
+networks:
+  replicado-network:
+
+volumes:
+  mongodb_data:
